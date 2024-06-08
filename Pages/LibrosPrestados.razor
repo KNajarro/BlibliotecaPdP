@@ -1,0 +1,53 @@
+﻿@page "/libros-prestados/{nombre}/{apellido}"
+@using BibliotecaBlazor.Data
+@inject BibliotecaService BibliotecaService
+
+<h3>Libros Prestados por @Nombre @Apellido</h3>
+
+@if (usuario == null)
+{
+    <p>Usuario no encontrado.</p>
+}
+else if (librosPrestados.Count == 0)
+{
+    <p>No hay libros prestados.</p>
+}
+else
+{
+    <ul>
+        @foreach (var libro in librosPrestados)
+        {
+            <li>@libro.Titulo <button class="btn btn-danger btn-sm" @onclick="() => DevolverLibro(libro)">Devolver</button></li>
+        }
+    </ul>
+}
+
+@code {
+    [Parameter] public string Nombre { get; set; }
+    [Parameter] public string Apellido { get; set; }
+
+    private Usuario usuario;
+    private List<Libro> librosPrestados;
+
+    protected override void OnParametersSet()
+    {
+        usuario = BibliotecaService.Usuarios.FirstOrDefault(u => u.Nombre == Nombre && u.Apellido == Apellido);
+        if (usuario != null)
+        {
+            librosPrestados = usuario.ObtenerLibrosPrestados();
+        }
+        else
+        {
+            librosPrestados = new List<Libro>();
+        }
+    }
+
+    private void DevolverLibro(Libro libro)
+    {
+        if (usuario != null && libro != null)
+        {
+            usuario.DevolverLibro(libro);
+            librosPrestados = usuario.ObtenerLibrosPrestados(); // Actualizar la lista
+        }
+    }
+}

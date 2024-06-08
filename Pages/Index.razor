@@ -1,0 +1,124 @@
+﻿@page "/"
+@using BibliotecaBlazor.Data
+@inject BibliotecaService BibliotecaService
+
+<h3>Biblioteca</h3>
+
+<div>
+    <h5>Agregar Bibliotecario</h5>
+    <form @onsubmit="AgregarBibliotecario" class="mt-4">
+        <div class="form-group col-3">
+            <label for="nombreBibliotecario">Nombre</label>
+            <input id="nombreBibliotecario" @bind="nombreBibliotecario" placeholder="Nombre" class="form-control" required />
+            <div class="invalid-feedback">
+                Por favor ingrese un nombre.
+            </div>
+        </div>
+        <div class="form-group col-3 mt-2">
+            <label for="apellidoBibliotecario">Apellido</label>
+            <input id="apellidoBibliotecario" @bind="apellidoBibliotecario" placeholder="Apellido" class="form-control" required />
+            <div class="invalid-feedback">
+                Por favor ingrese un apellido.
+            </div>
+        </div>
+        <button type="submit" class="mt-4 btn btn-primary">Agregar Bibliotecario</button>
+    </form>
+</div>
+
+@if (BibliotecaService.Bibliotecarios.Count > 0)
+{
+    <div class="mt-4">
+        <h5>Asignar Libros a Bibliotecario</h5>
+        <form @onsubmit="AsignarLibro" class="mt-4">
+            <div class="form-group col-3">
+                <label for="bibliotecarioSelect">Bibliotecario</label>
+                <select id="bibliotecarioSelect" @bind="selectedBibliotecarioId" class="form-control">
+                    @foreach (var bibliotecario in BibliotecaService.Bibliotecarios)
+                    {
+                        <option value="@bibliotecario.Id">@bibliotecario.Nombre @bibliotecario.Apellido</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group col-3 mt-2">
+                <label for="tituloLibro">Título del Libro</label>
+                <input id="tituloLibro" @bind="tituloLibro" placeholder="Título" class="form-control" required />
+                <div class="invalid-feedback">
+                    Por favor ingrese un título.
+                </div>
+            </div>
+            <button type="submit" class="mt-4 btn btn-primary">Asignar Libro</button>
+        </form>
+    </div>
+}
+
+@if (BibliotecaService.Usuarios.Count > 0 && BibliotecaService.Bibliotecarios.Count > 0)
+{
+    <div class="mt-4">
+        <h5>Realizar Préstamo</h5>
+        <form @onsubmit="RealizarPrestamo" class="mt-4">
+            <div class="form-group col-3">
+                <label for="usuarioSelect">Usuario</label>
+                <select id="usuarioSelect" @bind="selectedUsuarioId" class="form-control">
+                    @foreach (var usuario in BibliotecaService.Usuarios)
+                    {
+                        <option value="@usuario.Id">@usuario.Nombre @usuario.Apellido</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group col-3 mt-2">
+                <label for="libroPrestamoSelect">Libro</label>
+                <select id="libroPrestamoSelect" @bind="selectedLibroId" class="form-control">
+                    @foreach (var bibliotecario in BibliotecaService.Bibliotecarios)
+                    {
+                        @foreach (var libro in bibliotecario.ObtenerLibros())
+                        {
+                            <option value="@libro.Id">@libro.Titulo (Bibliotecario: @bibliotecario.Nombre @bibliotecario.Apellido)</option>
+                        }
+                    }
+                </select>
+            </div>
+            <button type="submit" class="mt-4 btn btn-primary">Realizar Préstamo</button>
+        </form>
+    </div>
+}
+
+@code {
+    private string? nombreBibliotecario;
+    private string? apellidoBibliotecario;
+    private string? tituloLibro;
+    private int selectedBibliotecarioId;
+    private int selectedUsuarioId;
+    private int selectedLibroId;
+
+    private void AgregarBibliotecario()
+    {
+        if (!string.IsNullOrWhiteSpace(nombreBibliotecario) && !string.IsNullOrWhiteSpace(apellidoBibliotecario))
+        {
+            var bibliotecario = new Bibliotecario(nombreBibliotecario!, apellidoBibliotecario!);
+            BibliotecaService.Bibliotecarios.Add(bibliotecario);
+            nombreBibliotecario = string.Empty;
+            apellidoBibliotecario = string.Empty;
+        }
+    }
+
+    private void AsignarLibro()
+    {
+        var bibliotecario = BibliotecaService.Bibliotecarios.FirstOrDefault(b => b.Id == selectedBibliotecarioId);
+        if (bibliotecario != null && !string.IsNullOrWhiteSpace(tituloLibro))
+        {
+            var libro = new Libro(tituloLibro!);
+            bibliotecario.AsignarLibro(libro);
+            tituloLibro = string.Empty;
+        }
+    }
+
+    private void RealizarPrestamo()
+    {
+        var usuario = BibliotecaService.Usuarios.FirstOrDefault(u => u.Id == selectedUsuarioId);
+        var libro = BibliotecaService.Bibliotecarios.SelectMany(b => b.ObtenerLibros()).FirstOrDefault(l => l.Id == selectedLibroId);
+        if (usuario != null && libro != null)
+        {
+            usuario.PrestarLibro(libro);
+        }
+    }
+}

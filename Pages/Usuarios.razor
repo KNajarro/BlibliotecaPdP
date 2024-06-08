@@ -1,0 +1,73 @@
+﻿@page "/usuarios"
+@using BibliotecaBlazor.Data
+@inject BibliotecaService BibliotecaService
+@inject NavigationManager Navigation
+
+<h3>Usuarios</h3>
+<div>
+    <h5>Nuevo Usuario</h5>
+    <form @onsubmit="AgregarUsuario" class="mt-4">
+        <div class="form-group col-3">
+            <label for="titulo">Nombre</label>
+            <input id="titulo" @bind="nombre" placeholder="Nombre" class="form-control" required />
+            <div class="invalid-feedback">
+                Por favor ingrese un nombre.
+            </div>
+        </div>
+        <div class="form-group col-3 mt-2">
+            <label for="autor">Apellido</label>
+            <input id="autor" @bind="apellido" placeholder="Apellido" class="form-control" required />
+            <div class="invalid-feedback">
+                Por favor ingrese un apellido.
+            </div>
+        </div>
+        <button type="submit" class="mt-4 btn btn-primary">Agregar</button>
+    </form>
+</div>
+
+@if (BibliotecaService.Usuarios.Count > 0)
+{
+    <div class="mt-4">
+        <h4>Lista de Usuarios</h4>
+        <ul>
+            @foreach (var usuario in BibliotecaService.Usuarios)
+            {
+                <li class="mt-2" style="list-style: none;">
+                    <div class="row">
+                        <div class="col-3">@usuario.Nombre @usuario.Apellido</div>
+                        <div class="col">
+                            <button class="btn btn-info" @onclick="() => MostrarLibrosPrestados(usuario)">Libros Prestados</button>
+                            <button class="btn btn-danger" @onclick="() => EliminarUsuario(usuario)">Eliminar</button>
+                        </div>
+                    </div>       
+                </li>
+            }
+        </ul>
+    </div>
+}
+
+@code {
+    private string? nombre;
+    private string? apellido;
+
+    private void AgregarUsuario()
+    {
+        if (!string.IsNullOrWhiteSpace(nombre) && !string.IsNullOrWhiteSpace(apellido))
+        {
+            var usuario = new Usuario(nombre!, apellido!);
+            BibliotecaService.Usuarios.Add(usuario);
+            nombre = string.Empty;
+            apellido = string.Empty;
+        }
+    }
+
+    private void EliminarUsuario(Usuario usuario)
+    {
+        BibliotecaService.Usuarios.Remove(usuario);
+    }
+
+    private void MostrarLibrosPrestados(Usuario usuario)
+    {
+        Navigation.NavigateTo($"/libros-prestados/{usuario.Nombre}/{usuario.Apellido}");
+    }
+}
