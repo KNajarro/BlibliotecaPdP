@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8iXeJsERtkW0y6bZRnImP/R2Fjeo7qA5wTPj6jcLt2Y=",
+  "Hash": "d3f2A82LMzCift6vMlU3ttEwkPi/jCMDGvyL+ZYseYA=",
   "Source": "BibliotecaBlazor",
   "BasePath": "_content/BibliotecaBlazor",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BibliotecaBlazor\\wwwroot",
       "Source": "BibliotecaBlazor",
-      "ContentRoot": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
       "BasePath": "_content/BibliotecaBlazor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BibliotecaBlazor.styles.css",
+      "Identity": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BibliotecaBlazor.styles.css",
       "SourceId": "BibliotecaBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BibliotecaBlazor",
       "RelativePath": "BibliotecaBlazor.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BibliotecaBlazor.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BibliotecaBlazor.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BibliotecaBlazor.bundle.scp.css",
+      "Identity": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BibliotecaBlazor.bundle.scp.css",
       "SourceId": "BibliotecaBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BibliotecaBlazor",
       "RelativePath": "BibliotecaBlazor.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BibliotecaBlazor.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BibliotecaBlazor.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BibliotecaBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
       "BasePath": "_content/BibliotecaBlazor",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BibliotecaBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
       "BasePath": "_content/BibliotecaBlazor",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BibliotecaBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
       "BasePath": "_content/BibliotecaBlazor",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BibliotecaBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
       "BasePath": "_content/BibliotecaBlazor",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BibliotecaBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
       "BasePath": "_content/BibliotecaBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BibliotecaBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
       "BasePath": "_content/BibliotecaBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BibliotecaBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
       "BasePath": "_content/BibliotecaBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BibliotecaBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
       "BasePath": "_content/BibliotecaBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BibliotecaBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
       "BasePath": "_content/BibliotecaBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BibliotecaBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
       "BasePath": "_content/BibliotecaBlazor",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BibliotecaBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
       "BasePath": "_content/BibliotecaBlazor",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\css\\site.css",
       "SourceId": "BibliotecaBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
       "BasePath": "_content/BibliotecaBlazor",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\favicon.ico",
       "SourceId": "BibliotecaBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kevin Najarro\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Kevin Lemus\\Documents\\ues\\2024\\Paradigmas de Programacion\\Proyecto-Final\\BibliotecaBlazor\\wwwroot\\",
       "BasePath": "_content/BibliotecaBlazor",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
